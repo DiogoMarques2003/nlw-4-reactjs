@@ -2,7 +2,7 @@ import { createContext, ReactNode, useContext, useEffect, useState } from "react
 import { ChallengesContext } from "./ChallengesContext";
 
 let countdownTimeout: NodeJS.Timeout;
-let minutsTime = 0.1;
+let minutsTime = 25;
 
 interface CountdownContextData {
     minutes: number;
